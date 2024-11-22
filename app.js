@@ -12,6 +12,7 @@ app.use(json());
 // Rutas
 app.use('/api', userRoutes);
 
+
 // Iniciar el servidor
 const PORT = process.env.PORT || 3000;
 
